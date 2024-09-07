@@ -1,0 +1,445 @@
+/* Style.css */
+body, html, #root {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.auth-container form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-title {
+    color: #fff;
+    font-size: 24px;
+}
+.navbar-account{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-account img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.dashboard {
+    padding-top: 60px;
+}
+
+.content {
+    padding: 20px;
+}
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.homepage-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus,
+.form-group input[type="number"]:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+.payment-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Payment Options */
+.payment-option {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #0056b3;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.payment-option:hover {
+    border-color: #007bff;
+    background-color: #587392;
+    
+}
+.payment-option span:hover{
+    color:rgba(0, 0, 0, 0.1)
+}
+.payment-option img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.payment-option span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f4f1f1;
+}
+
+/* Form Styles */
+/* form {
+    margin-top: 20px;
+    text-align: left;
+} */
+/* Styling the form */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering the buttons within the form */
+form button, .goback {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%; /* Make buttons take up full width */
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Button color */
+    color: white;
+}
+
+form button:hover, .goback:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Optional: style for the "Go back" button */
+.goback {
+    background-color: #f44336; /* Red color for "Go back" button */
+    margin-top: 10px;
+}
+
+.goback:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="number"]:focus,
+form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Back Button */
+button.back-button {
+    background-color: #6c757d;
+    margin-top: 20px;
+}
+
+button.back-button:hover {
+    background-color: #5a6268;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .payment-option {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    form label, form input[type="text"], form input[type="email"], form input[type="password"], form input[type="number"], form select {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .payment-options {
+        flex-direction: column;
+    }
+
+    .payment-options .option {
+        margin-bottom: 10px;
+    }
+}
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+}
+
+.service-buttons {
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.service-button {
+    padding: 20px 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.service-button:hover {
+    background-color: #0056b3;
+}
+.homepage {
+    text-align: center;
+    position: relative;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.watermark {
+    position: absolute;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .navbar-title {
+        font-size: 18px;
+    }
+
+    .service-item {
+        width: 100px;
+        padding: 10px;
+    }
+
+    .watermark {
+        font-size: 50px;
+    }
+}
